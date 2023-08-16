@@ -1,0 +1,9 @@
+.shopping-list {
+  margin-top: -450px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 600px;
+  margin-bottom: 30px;
+  justify-content: center;
+ 
+}

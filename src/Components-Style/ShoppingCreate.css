@@ -1,0 +1,61 @@
+.box {
+  margin-left: 450px;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopping-title {
+  padding-top: 15px;
+  color: white;
+}
+
+.container {
+  margin-top: 30px;
+  width: 600px;
+  height: 600px;
+  background-color: #4477ce;
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.container-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-input input {
+  width: 300px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #adc4ce;
+}
+
+.container-input input:focus {
+  outline: none;
+}
+
+.container-input input::placeholder {
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-input button {
+  cursor: pointer;
+  color: white;
+  width: 90px;
+  background-color: #512b81;
+  border-radius: 10px;
+  border: none;
+}
+
+.clear-items {
+  margin-left: 10px;
+}

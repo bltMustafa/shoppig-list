@@ -1,0 +1,30 @@
+.list-show {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-items {
+  width: 300px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  font-style: italic;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.list-items button {
+  cursor: pointer;
+  background-color: #512b81;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  float: right;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.list-items ul {
+  list-style: none;
+}
